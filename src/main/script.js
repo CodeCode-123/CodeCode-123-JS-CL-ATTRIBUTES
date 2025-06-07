@@ -12,7 +12,7 @@ button.onclick = setImageSrc;
  */
 function setImageSrc() {
     // Write your code here...
-    
+    image.setAttribute("src", input.value);
 }
 
 
